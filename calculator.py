@@ -11,7 +11,7 @@ def subtract( first, second):
 def multiply( first, second):
     # TODO:
     # fill in code here that will return the product of first and second
-    first * second
+    return first * second
 
 def divide( first, second):
     # TODO:
@@ -23,4 +23,3 @@ def divide( first, second):
     if second == 0:
         raise Exception('''I'm sorry, I can't divide by zero.''')
     return first / second
-
